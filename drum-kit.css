@@ -11,3 +11,15 @@ body {
     justify-content: space-around;
     align-items: baseline;
 }
+
+.drum-button {
+    width: 10rem;
+    height: 5rem;
+    border-radius: 3px;
+    border: 2pt solid black;
+    font-family: inherit;
+    color: white;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
