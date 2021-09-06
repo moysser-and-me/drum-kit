@@ -1,0 +1,1 @@
+const buttonSection = document.querySelector("#buttons");
