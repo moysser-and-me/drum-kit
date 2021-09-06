@@ -6,3 +6,8 @@ body {
     font-family: "Courier Prime", monospace;
 }
 
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
