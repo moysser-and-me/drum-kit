@@ -6,6 +6,10 @@ body {
     font-family: "Courier Prime", monospace;
 }
 
+header {
+    display: none;
+}
+
 #buttons {
     display: flex;
     justify-content: space-around;
