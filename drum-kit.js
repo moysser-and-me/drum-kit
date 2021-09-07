@@ -16,31 +16,31 @@ const buttonSection = document.querySelector("#buttons");
 buttonSection.addEventListener("click", e => {
     console.log(e.target.id);
     switch(e.target.id) {
-        case 'a':
+        case 'tom':
             tom.play();
             console.log('that was a tom')
             break;
-        case 's':
+        case 'hihat':
             hihat.play();
             console.log('that was a hihat')
             break;
-        case 'd':
+        case 'openhat':
             openhat.play();
             console.log('that was a openhat')
             break;
-        case 'f':
+        case 'ride':
             ride.play();
             console.log('that was a ride')
             break;
-        case 'j':
+        case 'kick':
             kick.play();
             console.log('that was a kick')
             break;
-        case 'k':
+        case 'snare':
             snare.play();
             console.log('that was a snare')
             break;
-        case 'l':
+        case 'tink':
             tink.play();
             console.log('that was a tink')
             break;
