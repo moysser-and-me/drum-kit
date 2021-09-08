@@ -14,7 +14,6 @@ const buttonSection = document.querySelector("#buttons");
 
 // Play sound on click
 buttonSection.addEventListener("click", e => {
-    console.log(e.target.id);
     switch(e.target.id) {
         case 'tom':
             tom.play();
