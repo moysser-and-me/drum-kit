@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("images/background.jpg");
+    font-family: "Courier Prime", monospace;
+}
+
+header {
+    display: none;
+}
+
+#buttons {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.drum-button {
+    width: 8rem;
+    height: 5rem;
+    border-radius: 3px;
+    border: 4pt solid black;
+    font-family: inherit;
+    color: white;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
